@@ -131,25 +131,9 @@
         color: #4a4a4a;
         text-align: center;
     }
-    .feature-img img {
-        height: 0;
-        position: relative;
-        padding-bottom: 56.25%;
-    }
 
-<<<<<<< HEAD
-    .feature-img img > * {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-=======
     .feature-img {
-        height: max-content;
         padding: 1rem !important;
->>>>>>> 60eba4fa076a2b244e248ab917bde5b338ec9abb
     }
 
     .feature-box p {
