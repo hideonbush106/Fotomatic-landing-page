@@ -133,6 +133,7 @@
     }
 
     .feature-img {
+        height: max-content;
         padding: 1rem !important;
     }
 
