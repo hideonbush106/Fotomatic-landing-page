@@ -128,26 +128,23 @@
         background-color: #d4d5d6 !important;
         margin: 0 !important;
         width: 100% !important;
+        height: 25rem !important;
         color: #4a4a4a;
         text-align: center;
+        padding-top: 1rem !important;
     }
 
     .feature-img {
-        padding: 1rem !important;
-        height: 1.5rem !important;
+        padding: 0 !important;
     }
     
-    .feature-img img {
-        height: 16.25rem !important;
-    }
-
     .feature-box p {
         margin: 0 1rem 0.875rem !important;
     }
 
     .feature-box h1 {
         font-size: 1.5rem !important;
-        padding: 0rem 1rem !important;
+        padding: 1rem 1rem 0rem !important;
     }
 
     .box-2 {
