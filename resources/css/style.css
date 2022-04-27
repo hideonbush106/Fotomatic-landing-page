@@ -1,0 +1,254 @@
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* *Begin of header */
+
+header {
+    line-height: 1.6;
+    display: inline-flex;
+    width: 100%;
+    height: 5.3125rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-left: 1.875rem;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nav-tablet-pc ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.nav-tablet-pc ul li {
+    margin: 0 1.875rem;
+}
+
+.nav-mobile {
+    display: inline-flex;
+    
+}
+
+.nav-mobile ul {
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.nav-mobile ul li{
+    list-style-type: none;
+}
+
+.instagram{
+    margin-right: 1.875rem;
+}
+
+.instagram a {
+    margin: 0 0.5rem;
+    display: inline-flex;
+}
+
+.join-btn {
+    background-color: #9dc20a;
+    margin-right: 1.75rem;
+    border-radius: 4px;
+    padding: 0.1875rem 0.5rem;
+}
+.join-btn a {
+    color: #ffffff;
+}
+
+.instagram-logo{
+    width: 1.5rem;
+    height: auto;
+    margin-left: 0.5rem;
+}
+
+/* *end of header */
+/* *Begin of banner */
+
+#banner {
+    position: relative;
+    width: 100%;
+    height: 42.5rem;
+    background-image: url('../images/banner-landingpage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-container {
+    position: absolute;
+    top: 10.625rem;
+    left: 6.25rem;
+    height: 21.875rem;
+    width: 35.75rem;
+    background-color: #9dc20a;
+    border: 1px solid #979797;
+    border-radius: 4px;
+}
+
+.banner-content {
+    color: white;
+    text-align: center;
+    margin: 2rem 5rem 3.5rem;
+    line-height: 1.4;
+}
+
+.banner-content h2 {
+    font-weight: lighter;
+    font-family: 'Damion', cursive;
+    font-size: 2.25rem;
+}
+
+.banner-content h1 {
+    text-transform: uppercase;
+    font-size: 3.125rem;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+}
+
+.banner-content p {
+    font-size: 1.25rem;
+    margin-bottom: 1.625rem;
+}
+
+.banner-content a button {
+    color:white;
+    font-size: 1.25rem;
+    font-weight: 500;
+    width: 25.5rem;
+    height: 4rem;
+    border-radius: 4px;
+    background-color: #4a4a4a;
+    transition: .3s ease-in-out;
+}
+
+.banner-content button:hover {
+    background-color: black;
+}
+
+/* *End of banner */
+/* *Begin of features */
+
+#features {
+    background-color: #eaeaea;
+    width: 100%;
+}
+
+.features-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.feature-box {
+    background-color: #ffffff;
+    margin: 4rem 1.1875rem 2.875rem;
+    width: 42rem;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+.feature-img {
+    padding: 2rem 2rem 2.5rem;
+}
+
+.feature-img img{
+    width: auto;
+    height: 65%;
+}
+
+.feature-box h1 {
+    font-size: 2.25rem;
+    padding: 0rem 2rem;
+}
+
+.feature-box p {
+    margin: 0 3rem 3rem;
+}
+
+/* *End of features */
+
+/* *Begin of filter */
+
+#filter {
+    background-color: #4a4a4a;
+    color: white;
+}
+
+.filter-container {
+    padding: 4rem 0;
+    text-align: center;
+    opacity: 100%;
+}
+
+.filter-container h1{
+    font-size: 2.25rem;
+}
+
+.filter-container p {
+    line-height: 1.4;
+    padding-bottom: 5rem;
+}
+
+.filter-img-container{
+    display: flex;
+    flex-direction: row;
+    padding: 0 1%;
+    justify-content: center;
+}
+
+#quote {
+    padding: 5rem 0;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#quote h1 {
+    font-family: 'Palatino', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1.875rem;
+}
+
+#quote img {
+    padding: 0 1.875rem;
+}
+
+footer {
+    font-size: 0.75rem;
+    color: white;
+    display: flex;
+    height: 3.875rem;
+    width: 100%;
+    background-color: #9b9b9b;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin-left: 2rem;
+}
+
+.NYC {
+    margin-right: 2rem;
+}
